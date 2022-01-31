@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gitPagesTest/static/css/main.4cb22e28.css",
+    "main.css": "/gitPagesTest/static/css/main.87ef5b65.css",
     "main.js": "/gitPagesTest/static/js/main.21711b86.js",
     "static/js/787.28cb0dcd.chunk.js": "/gitPagesTest/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo.svg": "/gitPagesTest/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/gitPagesTest/index.html",
-    "main.4cb22e28.css.map": "/gitPagesTest/static/css/main.4cb22e28.css.map",
+    "main.87ef5b65.css.map": "/gitPagesTest/static/css/main.87ef5b65.css.map",
     "main.21711b86.js.map": "/gitPagesTest/static/js/main.21711b86.js.map",
     "787.28cb0dcd.chunk.js.map": "/gitPagesTest/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cb22e28.css",
+    "static/css/main.87ef5b65.css",
     "static/js/main.21711b86.js"
   ]
 }
