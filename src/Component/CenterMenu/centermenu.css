@@ -1,0 +1,14 @@
+.centermenu-div {
+  width: 100%;
+  height: 100%;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  margin-top: -20px;
+}
+.centermenu-div-sidebaropen {
+  width: calc(100% + 250px);
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  margin-top: -20px;
+  height: 100%;
+}

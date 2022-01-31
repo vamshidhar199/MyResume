@@ -1,0 +1,25 @@
+.sidebar-div {
+  width: 250px;
+  height: 100%;
+  top: 0;
+  left: -400px;
+  overflow: hidden;
+  background-color: rgb(202, 96, 25);
+  box-shadow: 5px 5px 10px grey;
+  position: absolute;
+  z-index: 11;
+  opacity: 0;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+.sidebar-div-open {
+  opacity: 1;
+  left: 0;
+}
+.sidebar-toggle {
+  position: absolute;
+  color: #000;
+  font-size: 25px;
+  z-index: 12;
+  cursor: pointer;
+}
