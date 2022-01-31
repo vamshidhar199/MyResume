@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gitPagesTest/static/css/main.c6e8cbc5.css",
-    "main.js": "/gitPagesTest/static/js/main.f92dd093.js",
+    "main.css": "/gitPagesTest/static/css/main.1ffb4243.css",
+    "main.js": "/gitPagesTest/static/js/main.21711b86.js",
     "static/js/787.28cb0dcd.chunk.js": "/gitPagesTest/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo.svg": "/gitPagesTest/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/gitPagesTest/index.html",
-    "main.c6e8cbc5.css.map": "/gitPagesTest/static/css/main.c6e8cbc5.css.map",
-    "main.f92dd093.js.map": "/gitPagesTest/static/js/main.f92dd093.js.map",
+    "main.1ffb4243.css.map": "/gitPagesTest/static/css/main.1ffb4243.css.map",
+    "main.21711b86.js.map": "/gitPagesTest/static/js/main.21711b86.js.map",
     "787.28cb0dcd.chunk.js.map": "/gitPagesTest/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6e8cbc5.css",
-    "static/js/main.f92dd093.js"
+    "static/css/main.1ffb4243.css",
+    "static/js/main.21711b86.js"
   ]
 }
