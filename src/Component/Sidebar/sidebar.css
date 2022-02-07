@@ -4,7 +4,7 @@
   top: 0;
   left: -400px;
   overflow: hidden;
-  background-color: rgb(202, 96, 25);
+  background-color: #f2f2f2;
   box-shadow: 5px 5px 10px grey;
   position: absolute;
   z-index: 11;
@@ -18,8 +18,11 @@
 }
 .sidebar-toggle {
   position: absolute;
-  color: #000;
+  color: rgb(245, 237, 237);
   font-size: 25px;
   z-index: 12;
   cursor: pointer;
+  padding-left: 10px;
+  padding-top: 20px;
+  content: url("./../../Assets/icons8-horizontal-separated-bars-representing-hamburger-menu-layout-32.png");
 }

@@ -12,3 +12,12 @@
   margin-top: -20px;
   height: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .centermenu-div-sidebaropen {
+    width: calc(100% + 650px);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    margin-top: -20px;
+    height: 100%;
+  }
+}
