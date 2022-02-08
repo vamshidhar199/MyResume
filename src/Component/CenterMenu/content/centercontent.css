@@ -8,11 +8,19 @@
 .centercontent-div-h1 {
   z-index: 2;
   position: relative;
-  top: 220px;
+  top: 210px;
   color: antiquewhite;
   font-family: "Ubuntu", sans-serif;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   margin-top: -100px;
+}
+.centercontent-div-h3 {
+  z-index: 2;
+  position: relative;
+  top: 180px;
+  color: antiquewhite;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 .centercontent-div-h1-profileImg {
   content: url("./../../../Assets/profile.jfif");
@@ -24,7 +32,7 @@
 
   z-index: 2;
   position: relative;
-  top: 120px;
+  top: 110px;
 
   color: antiquewhite;
   /* font-family: "Ubuntu", sans-serif; */
@@ -46,7 +54,7 @@
   }
   .centercontent-div-img {
     width: 100%;
-    height: 360px;
+    height: 380px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -55,7 +63,7 @@
 .centercontent-div-div {
   z-index: 2;
   position: relative;
-  top: 295px;
+  top: 262px;
   display: flex;
   justify-content: center;
   margin-top: -100px;
@@ -83,10 +91,10 @@
   text-decoration: none;
   padding: 3px;
   padding-left: 5px;
-  padding-right: 5px;
+
   border: 0.1em solid #ffffff;
   border-radius: 0.12em;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   margin-left: 5px;
   margin-top: -2px;
   color: #eb700c;
@@ -114,18 +122,15 @@
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
   }
   .centercontent-div-div-button {
-    background-color: transparent;
+    background-color: #007fb1;
     background-repeat: no-repeat;
     padding: 3px;
     border-radius: 5px;
     box-shadow: 5px;
     text-decoration: none;
-    border: 0.1em solid #ffffff;
-    border-radius: 0.12em;
-    border-color: black;
     margin-left: 5px;
     margin-top: -2px;
-    color: #080808;
+    color: #f8f4f4;
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     font-weight: 500;
     transition: transform 250ms;

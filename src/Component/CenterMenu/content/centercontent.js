@@ -11,10 +11,13 @@ class CenterContent extends Component {
           <img className="centercontent-div-img" src={background}></img>
           <img className="centercontent-div-h1-profileImg"></img>
           <h1 className="centercontent-div-h1">Vamshidhar Reddy Parupally</h1>
+          <h4 className="centercontent-div-h3">
+            FullStack Developer | Cloud Enthusiast{" "}
+          </h4>
           <div className="centercontent-div-div">
             <SocialIcon
               url="https://linkedin.com/in/vamshidhar-reddy-parupally-550080170"
-              style={{ height: 25, width: 25 }}
+              style={{ height: 26, width: 26 }}
             ></SocialIcon>
             <a
               href={myResume}
