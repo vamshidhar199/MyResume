@@ -52,7 +52,48 @@
     left: 0px;
   }
 }
-
+.centercontent-div-div {
+  z-index: 2;
+  position: relative;
+  top: 295px;
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+.centercontent-div-div-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding: 3px;
+  text-decoration: none;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-shadow: none;
+  margin-left: 5px;
+  margin-top: -2px;
+  color: #efecf3;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: 600;
+  transition: transform 350ms;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.centercontent-div-div-button:hover {
+  background-color: bisque;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  transform: translateY(-10px);
+  margin-left: 5px;
+  margin-top: -2px;
+  color: #eb700c;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
 @media only screen and (max-width: 600px) {
   .centercontent-div-h1-profileImg {
     content: url("./../../../Assets/profile.jfif");
@@ -71,5 +112,24 @@
     color: antiquewhite;
     /* font-family: "Ubuntu", sans-serif; */
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  }
+  .centercontent-div-div-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    text-decoration: none;
+    border: 0.1em solid #ffffff;
+    border-radius: 0.12em;
+    border-color: black;
+    margin-left: 5px;
+    margin-top: -2px;
+    color: #080808;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 500;
+    transition: transform 250ms;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 }
