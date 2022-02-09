@@ -14,7 +14,7 @@
   background-color: #060a2f;
   box-shadow: 5px 5px 10px grey;
   position: absolute;
-  z-index: 11;
+  z-index: 2;
   opacity: 0;
   transition: all 0.25s;
   -webkit-transition: all 0.25s;
@@ -30,14 +30,6 @@
 }
 .footer-div-sidebaropen {
   width: calc(100% + 250px);
-  transition: all 0.25s;
-  -webkit-transition: all 0.25s;
-  position: absolute;
-  bottom: 0;
-  height: 25%;
-  overflow-x: hidden;
-  display: flex;
-  background-color: #060a2f;
 }
 .footer-close {
   text-align: right;

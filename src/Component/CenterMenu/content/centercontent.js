@@ -6,6 +6,7 @@ import myResume from "./../../../Assets/Resume-VamshidharReddyParupally.pdf";
 class CenterContent extends Component {
   state = {
     isScrolling: false,
+    speek: true,
   };
 
   componentDidMount() {
@@ -26,16 +27,46 @@ class CenterContent extends Component {
     }, 200);
   };
   render() {
+    let constTechlonogy = ["Java", "ReactJS", "Python", "AWS Basics", "Spark"];
+    let constOtherSkills = [
+      "Organizing Skills",
+      "Time Management",
+      "Multitasking",
+    ];
+    let bio = `"Hello. I being an introvert, spent a lot of time inside the house, watching stupid TV shows, until I entered my
+    graduation. The moment I entered into my graduation program,
+    I have completely changed my point of focus towards the
+    technologies that created curiosity in me. I have developed
+    a couple of web applications out of my own interest, of
+    which one fetched me a certificate stating "best project".
+    Apart from the technological aspect, I have even poked my
+    nose into creative and content writing and worked as an
+    intern at a company named SHOOT ORDER. Also worked as a
+    marketing intern at Bolt IoT.
+     Having worked at TCS, as a software engineer, gave
+    me a good understanding of corporate culture and how
+    projects have to be accomplished. Working for clients like
+    Apple has given me good exposure to industry standards and
+    gave me an opportunity to work on technologies like AWS S3,
+    Spark, Python, React JS, and Java. Now, I have started a new
+    phase in my life at San Jose as a master's student. This is
+    me, an enthusiast and reserved creature."`;
+    var msg = new SpeechSynthesisUtterance(bio);
+    var voices = window.speechSynthesis.getVoices();
+
+    msg.voice = voices[10];
+    //window.speechSynthesis.speak(msg);
+
     return (
       <>
         <div className="centercontent-div">
           <img className="centercontent-div-img" src={background}></img>
           <img className="centercontent-div-h1-profileImg"></img>
           <h1 className="centercontent-div-h1">Vamshidhar Reddy Parupally</h1>
-          <h4 className="centercontent-div-h3">
+          <h5 className="centercontent-div-h3">
             FullStack Developer | Cloud Enthusiast{" "}
-          </h4>
-          <div className="centercontent-div-div">
+          </h5>
+          <div className=" centercontent-div-div">
             <SocialIcon
               url="https://linkedin.com/in/vamshidhar-reddy-parupally-550080170"
               style={{ height: 26, width: 26 }}
@@ -50,7 +81,74 @@ class CenterContent extends Component {
               </button>
             </a>
           </div>
-          <div className="centercontent-div-div2"></div>
+          <div className="centercontent-div-div2">
+            <div className="container container-style">
+              <div className="row">
+                <div className="col-sm-8 col-style">
+                  <h1 className=" centercontent-div-div2-h1">
+                    About Me
+                    <span
+                      title="My Intro"
+                      className="speech-icon"
+                      onClick={() => {
+                        console.log("speech clicked");
+                        this.state.speek
+                          ? window.speechSynthesis.speak(msg)
+                          : window.speechSynthesis.cancel();
+                        this.setState({ speek: !this.state.speek });
+                      }}
+                    ></span>
+                  </h1>
+                  <p className=" centercontent-div-div2-p">
+                    Hello. I being an introvert, spent a lot of time inside the
+                    house, watching stupid TV shows, until I entered my
+                    graduation. The moment I entered into my graduation program,
+                    I have completely changed my point of focus towards the
+                    technologies that created curiosity in me. I have developed
+                    a couple of web applications out of my own interest, of
+                    which one fetched me a certificate stating "best project".
+                    Apart from the technological aspect, I have even poked my
+                    nose into creative and content writing and worked as an
+                    intern at a company named SHOOT ORDER. Also worked as a
+                    marketing intern at Bolt IoT.<br></br>
+                    <br></br> Having worked at TCS, as a software engineer, gave
+                    me a good understanding of corporate culture and how
+                    projects have to be accomplished. Working for clients like
+                    Apple has given me good exposure to industry standards and
+                    gave me an opportunity to work on technologies like AWS S3,
+                    Spark, Python, React JS, and Java. Now, I have started a new
+                    phase in my life at San Jose as a master's student. This is
+                    me, an enthusiast and reserved creature.
+                  </p>
+                </div>
+                <div className="col-sm col-style">
+                  <h1 className=" centercontent-div-div2-h11">Skills</h1>
+                  <h4 className=" centercontent-div-div2-h11">Technologies</h4>
+                  <p className="skill-list">
+                    {"\u25cf"} {constTechlonogy.join(", ")}
+                  </p>
+                  <h4 className=" centercontent-div-div2-h11">Others</h4>
+                  <p className="skill-list">
+                    {"\u25cf"} {constOtherSkills.join(", ")}{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="centercontent-div-div22">
+            <div className="container container-style">
+              <div className="row">
+                <div className="col-sm col-style">
+                  <h1 className=" centercontent-div-div2-h1"></h1>
+                  <p className=" centercontent-div-div2-p"></p>
+                </div>
+                <div className="col-sm col-style">
+                  <h1 className=" centercontent-div-div2-h11"></h1>
+                  <h4 className=" centercontent-div-div2-h11"></h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </>
     );

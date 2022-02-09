@@ -17,10 +17,10 @@ class Footer extends Component {
       <div
         id="footer"
         className={
-          this.props.sidebarOpen
-            ? "footer-div-sidebaropen"
-            : this.state.footerOpen
-            ? "footer-div footer-animation"
+          this.state.footerOpen
+            ? this.props.sidebarOpen
+              ? "footer-div footer-animation footer-div-sidebaropen"
+              : "footer-div footer-animation"
             : "footer-div"
         }
       >
@@ -37,6 +37,9 @@ class Footer extends Component {
         <h1 className={this.state.footerOpen ? "footer-h1" : ""}>
           Liked my profile?
         </h1>
+        <h4 className={this.state.footerOpen ? "footer-h1" : ""}>
+          Please feel free to contact me
+        </h4>
       </div>
     );
   }
