@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Sidebar from "./Sidebar/sidebar";
 import CenterMenu from "./CenterMenu/centermenu";
+import Footer from "./Footer/footer";
 class Main extends Component {
   state = {
     openSidebar: false,
@@ -17,6 +18,7 @@ class Main extends Component {
 
         <Sidebar sidebarOpen={this.state.openSidebar}></Sidebar>
         <CenterMenu sidebarOpen={this.state.openSidebar}></CenterMenu>
+        <Footer sidebarOpen={this.state.openSidebar}></Footer>
       </div>
     );
   }

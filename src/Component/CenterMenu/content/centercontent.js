@@ -4,6 +4,27 @@ import background from "./../../../Assets/background.jpg";
 import { SocialIcon } from "react-social-icons";
 import myResume from "./../../../Assets/Resume-VamshidharReddyParupally.pdf";
 class CenterContent extends Component {
+  state = {
+    isScrolling: false,
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.onScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.onScroll);
+  }
+
+  onScroll = () => {
+    this.setState({ isScrolling: true });
+
+    clearTimeout(this.timeout);
+
+    this.timeout = setTimeout(() => {
+      this.setState({ isScrolling: false });
+    }, 200);
+  };
   render() {
     return (
       <>
@@ -29,6 +50,7 @@ class CenterContent extends Component {
               </button>
             </a>
           </div>
+          <div className="centercontent-div-div2"></div>
         </div>
       </>
     );

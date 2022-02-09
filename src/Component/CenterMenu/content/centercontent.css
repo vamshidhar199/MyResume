@@ -68,6 +68,14 @@
   justify-content: center;
   margin-top: -100px;
 }
+.centercontent-div-div2 {
+  z-index: 2;
+  padding-top: 260px;
+  display: flex;
+  height: 350px;
+  background-color: antiquewhite;
+  justify-content: center;
+}
 .centercontent-div-div-button {
   background-color: transparent;
   background-repeat: no-repeat;
