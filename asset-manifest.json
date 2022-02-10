@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/gitPagesTest/static/css/main.458f0689.css",
-    "main.js": "/gitPagesTest/static/js/main.bbcc0c33.js",
+    "main.css": "/gitPagesTest/static/css/main.0797118e.css",
+    "main.js": "/gitPagesTest/static/js/main.67dec4fb.js",
     "static/js/787.28cb0dcd.chunk.js": "/gitPagesTest/static/js/787.28cb0dcd.chunk.js",
     "static/media/Resume-VamshidharReddyParupally.pdf": "/gitPagesTest/static/media/Resume-VamshidharReddyParupally.ca6f26ed862a89baf69b.pdf",
+    "static/media/bootstrap-icons.woff?": "/gitPagesTest/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/gitPagesTest/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
     "static/media/profile.jfif": "/gitPagesTest/static/media/profile.9aa2a93ae3f18db7d17c.jfif",
     "static/media/background.jpg": "/gitPagesTest/static/media/background.491cd0b21895fed86413.jpg",
     "static/media/logo.svg": "/gitPagesTest/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/gitPagesTest/index.html",
-    "main.458f0689.css.map": "/gitPagesTest/static/css/main.458f0689.css.map",
-    "main.bbcc0c33.js.map": "/gitPagesTest/static/js/main.bbcc0c33.js.map",
+    "static/media/arrow-down-circle.svg": "/gitPagesTest/static/media/arrow-down-circle.5c6f32c6cb6037967f41.svg",
+    "main.0797118e.css.map": "/gitPagesTest/static/css/main.0797118e.css.map",
+    "main.67dec4fb.js.map": "/gitPagesTest/static/js/main.67dec4fb.js.map",
     "787.28cb0dcd.chunk.js.map": "/gitPagesTest/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.458f0689.css",
-    "static/js/main.bbcc0c33.js"
+    "static/css/main.0797118e.css",
+    "static/js/main.67dec4fb.js"
   ]
 }
