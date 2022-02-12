@@ -3,6 +3,12 @@ import "./centercontent.css";
 import background from "./../../../Assets/background.jpg";
 import { SocialIcon } from "react-social-icons";
 import myResume from "./../../../Assets/Resume-VamshidharReddyParupally.pdf";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+
 class CenterContent extends Component {
   state = {
     isScrolling: false,
@@ -27,11 +33,19 @@ class CenterContent extends Component {
     }, 200);
   };
   render() {
-    let constTechlonogy = ["Java", "ReactJS", "Python", "AWS Basics", "Spark"];
+    let constTechlonogy = [
+      <span className="col-sm-2 skillsSpan">Java</span>,
+      <span className="col-sm-2 skillsSpan">ReactJS</span>,
+      <span className="col-sm-2 skillsSpan">Python</span>,
+      <span className="col-sm-2 skillsSpan">AWS Basics</span>,
+      <span className="col-sm-2 skillsSpan">Spark</span>,
+      <span className="col-sm-2 skillsSpan">Kafka</span>,
+      <span className="col-sm-2 skillsSpan">C</span>,
+    ];
     let constOtherSkills = [
-      "Organizing Skills",
-      "Time Management",
-      "Multitasking",
+      <span className="col-sm-2 skillsSpan">Organizing Skills</span>,
+      <span className="col-sm-2 skillsSpan">Time Management</span>,
+      <span className="col-sm-2 skillsSpan">Multitasking</span>,
     ];
     let bio = `"Hello. I being an introvert, spent a lot of time inside the house, watching stupid TV shows, until I entered my
     graduation. The moment I entered into my graduation program,
@@ -111,7 +125,7 @@ class CenterContent extends Component {
             <div className="container-fluid container-style">
               <div className="row row-header-bottom">
                 <div className="col-sm-8 col-style">
-                  <h1 className=" centercontent-div-div2-h1">
+                  <h3 className=" centercontent-div-div2-h1">
                     About Me
                     <span
                       title="My Intro"
@@ -124,7 +138,7 @@ class CenterContent extends Component {
                         this.setState({ speek: !this.state.speek });
                       }}
                     ></span>
-                  </h1>
+                  </h3>
                   <p className=" centercontent-div-div2-p">
                     Hello. I being an introvert, spent a lot of time inside the
                     house, watching stupid TV shows, until I entered my
@@ -148,29 +162,78 @@ class CenterContent extends Component {
                   </p>
                 </div>
                 <div className="col-sm col-style">
-                  <h1 className=" centercontent-div-div2-h11">Skills</h1>
-                  <h4 className=" centercontent-div-div2-h11">Technologies</h4>
-                  <p className="skill-list">
-                    {"\u25cf"} {constTechlonogy.join(", ")}
-                  </p>
-                  <h4 className=" centercontent-div-div2-h11">Others</h4>
-                  <p className="skill-list">
-                    {"\u25cf"} {constOtherSkills.join(", ")}{" "}
-                  </p>
+                  <h3 className=" centercontent-div-div2-h11">Skills</h3>
+                  <h5 className=" centercontent-div-div2-h112">Technologies</h5>
+                  <div className="container-fluid">
+                    <div className="row skill-list">
+                      {constTechlonogy.map((x, i) => {
+                        return x;
+                      })}
+                    </div>
+                  </div>
+                  <h5 className=" centercontent-div-div2-h112">Others</h5>
+                  <div className="container-fluid">
+                    <div className=" row skill-list">
+                      {constOtherSkills.map((x, i) => {
+                        return x;
+                      })}{" "}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="centercontent-div-div22">
+          <div className="centercontent-div-div2">
             <div className="container-fluid container-style">
-              <div className="row ">
-                <div className="col-sm col-style">
-                  <h1 className=" centercontent-div-div2-h1"></h1>
-                  <p className=" centercontent-div-div2-p"></p>
-                </div>
-                <div className="col-sm col-style">
-                  <h1 className=" centercontent-div-div2-h11"></h1>
-                  <h4 className=" centercontent-div-div2-h11"></h4>
+              <div className="row row-header-bottom">
+                <div className="col-sm-12 col-style">
+                  <h3 className=" centercontent-div-div3-h3">
+                    Experience and Background
+                  </h3>
+                  <VerticalTimeline>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{
+                        background: "#2c336e",
+                        color: "wheat",
+                      }}
+                      contentArrowStyle={{
+                        borderRight: "7px solid  rgb(33, 150, 243)",
+                      }}
+                      date="2020 - 2021"
+                      iconStyle={{
+                        background: "rgb(33, 150, 243)",
+                        color: "#fff",
+                      }}
+                    >
+                      <h3 className="vertical-timeline-element-title">
+                        Software Developer
+                      </h3>
+                      <h4 className="vertical-timeline-element-subtitle">
+                        Tata Consultancy Services, IN
+                      </h4>
+                      <p>Full Stack Developer, Data Engineer</p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2014 - 2020"
+                      contentArrowStyle={{
+                        borderRight: "7px solid  rgb(33, 150, 243)",
+                      }}
+                      iconStyle={{
+                        background: "rgb(33, 150, 243)",
+                        color: "#fff",
+                      }}
+                    >
+                      <h3 className="vertical-timeline-element-title">
+                        Bachelor's
+                      </h3>
+                      <h4 className="vertical-timeline-element-subtitle">
+                        Anurag Group of Institutions , IN{" "}
+                      </h4>
+                      <p>Information Technology </p>
+                    </VerticalTimelineElement>
+                  </VerticalTimeline>
                 </div>
               </div>
             </div>
