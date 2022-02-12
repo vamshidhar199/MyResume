@@ -59,31 +59,57 @@ class CenterContent extends Component {
 
     return (
       <>
+        <div className="Header-top"></div>
         <div className="centercontent-div">
-          <img className="centercontent-div-img" src={background}></img>
-          <img className="centercontent-div-h1-profileImg"></img>
-          <h1 className="centercontent-div-h1">Vamshidhar Reddy Parupally</h1>
-          <h5 className="centercontent-div-h3">
-            FullStack Developer | Cloud Enthusiast{" "}
-          </h5>
-          <div className=" centercontent-div-div">
-            <SocialIcon
-              url="https://linkedin.com/in/vamshidhar-reddy-parupally-550080170"
-              style={{ height: 26, width: 26 }}
-            ></SocialIcon>
-            <a
-              href={myResume}
-              download="VamshidharReddyParupallyResume"
-              target="_blank"
-            >
-              <button className="centercontent-div-div-button">
-                DOWNLOAD CV
-              </button>
-            </a>
+          <div className="container-fluid">
+            {/* <img className="centercontent-div-img" src={background}></img> */}
+            <div className="row row-header">
+              <div className="col-sm-1 row-header-col">
+                <img className=" centercontent-div-h1-profileImg"></img>
+              </div>
+              <div className="col-sm-11 bio-header">
+                <h2 className="centercontent-div-h1">
+                  Vamshidhar Reddy Parupally
+                </h2>
+                <h5 className="centercontent-div-h3">
+                  {"\u00A0"}Student at San Jose State University <br></br>
+                </h5>
+                <h5 className="centercontent-div-h3">
+                  {"\u00A0"}FullStack Developer | Cloud Enthusiast <br></br>
+                  {"\u00A0"}Experience : 1.5 years
+                </h5>
+                <div className=" centercontent-div-div">
+                  {/* <SocialIcon
+                    url="https://linkedin.com/in/vamshidhar-reddy-parupally-550080170"
+                    style={{ height: 26, width: 26 }}
+                  ></SocialIcon> */}
+                  <span title="linkedin profile" className="linked-in"></span>
+                  <span className="github" title="Github"></span>
+                  <a
+                    href={myResume}
+                    download="VamshidharReddyParupallyResume"
+                    target="_blank"
+                  >
+                    {" "}
+                    <span className="download-CV" title="Download CV"></span>
+                  </a>
+
+                  {/* <a
+                    href={myResume}
+                    download="VamshidharReddyParupallyResume"
+                    target="_blank"
+                  >
+                    <button className="centercontent-div-div-button">
+                      DOWNLOAD CV
+                    </button>
+                  </a> */}
+                </div>
+              </div>
+            </div>
           </div>
           <div className="centercontent-div-div2">
-            <div className="container container-style">
-              <div className="row">
+            <div className="container-fluid container-style">
+              <div className="row row-header-bottom">
                 <div className="col-sm-8 col-style">
                   <h1 className=" centercontent-div-div2-h1">
                     About Me
@@ -136,8 +162,8 @@ class CenterContent extends Component {
             </div>
           </div>
           <div className="centercontent-div-div22">
-            <div className="container container-style">
-              <div className="row">
+            <div className="container-fluid container-style">
+              <div className="row ">
                 <div className="col-sm col-style">
                   <h1 className=" centercontent-div-div2-h1"></h1>
                   <p className=" centercontent-div-div2-p"></p>

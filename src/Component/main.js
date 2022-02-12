@@ -9,12 +9,12 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <h1
+        {/* <h1
           onClick={() => {
             this.setState({ openSidebar: !this.state.openSidebar });
           }}
           className="sidebar-toggle"
-        ></h1>
+        ></h1> */}
 
         <Sidebar sidebarOpen={this.state.openSidebar}></Sidebar>
         <CenterMenu sidebarOpen={this.state.openSidebar}></CenterMenu>
