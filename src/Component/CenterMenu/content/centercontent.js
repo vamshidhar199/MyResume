@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./centercontent.css";
+import { FaSuitcase } from "react-icons/fa";
 import background from "./../../../Assets/background.jpg";
 import { SocialIcon } from "react-social-icons";
 import myResume from "./../../../Assets/Resume-VamshidharReddyParupally.pdf";
@@ -205,6 +206,7 @@ class CenterContent extends Component {
                         background: "rgb(33, 150, 243)",
                         color: "#fff",
                       }}
+                      icon={<FaSuitcase />}
                     >
                       <h3 className="vertical-timeline-element-title">
                         Software Developer
