@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyResume/static/css/main.8c0c3db0.css",
-    "main.js": "/MyResume/static/js/main.1b7f969c.js",
+    "main.js": "/MyResume/static/js/main.0a71e8a0.js",
     "static/js/787.28cb0dcd.chunk.js": "/MyResume/static/js/787.28cb0dcd.chunk.js",
     "static/media/VamshidharReddyParupally.pdf": "/MyResume/static/media/VamshidharReddyParupally.8d91ff5403e333c5eca9.pdf",
     "static/media/bootstrap-icons.woff?": "/MyResume/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
@@ -12,11 +12,11 @@
     "index.html": "/MyResume/index.html",
     "static/media/arrow-down-circle.svg": "/MyResume/static/media/arrow-down-circle.5c6f32c6cb6037967f41.svg",
     "main.8c0c3db0.css.map": "/MyResume/static/css/main.8c0c3db0.css.map",
-    "main.1b7f969c.js.map": "/MyResume/static/js/main.1b7f969c.js.map",
+    "main.0a71e8a0.js.map": "/MyResume/static/js/main.0a71e8a0.js.map",
     "787.28cb0dcd.chunk.js.map": "/MyResume/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c0c3db0.css",
-    "static/js/main.1b7f969c.js"
+    "static/js/main.0a71e8a0.js"
   ]
 }
