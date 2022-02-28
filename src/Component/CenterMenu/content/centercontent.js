@@ -36,6 +36,7 @@ class CenterContent extends Component {
   render() {
     let constTechlonogy = [
       <span className="col-sm-2 skillsSpan">Java</span>,
+      <span className="col-sm-2 skillsSpan">JS</span>,
       <span className="col-sm-2 skillsSpan">ReactJS</span>,
       <span className="col-sm-2 skillsSpan">Python</span>,
       <span className="col-sm-2 skillsSpan">AWS Basics</span>,
@@ -144,7 +145,7 @@ class CenterContent extends Component {
                 <div className="col-sm-8 col-style">
                   <h3 className=" centercontent-div-div2-h1">
                     About Me
-                    <span
+                    {/* <span
                       title="My Intro"
                       className="speech-icon"
                       onClick={() => {
@@ -154,7 +155,7 @@ class CenterContent extends Component {
                           : window.speechSynthesis.cancel();
                         this.setState({ speek: !this.state.speek });
                       }}
-                    ></span>
+                    ></span> */}
                   </h3>
                   <p className=" centercontent-div-div2-p">
                     Hello. I being an introvert, spent a lot of time inside the
@@ -211,7 +212,7 @@ class CenterContent extends Component {
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
                       contentStyle={{
-                        color: "black",
+                        color: "#53565a",
                       }}
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
@@ -238,6 +239,9 @@ class CenterContent extends Component {
                       date="2014 - 2020"
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
+                      }}
+                      contentStyle={{
+                        color: "#53565a",
                       }}
                       iconStyle={{
                         background: "rgb(33, 150, 243)",
@@ -270,7 +274,7 @@ class CenterContent extends Component {
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
                       contentStyle={{
-                        color: "black",
+                        color: "#53565a",
                       }}
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
@@ -288,21 +292,24 @@ class CenterContent extends Component {
                       <h4 className="vertical-timeline-element-subtitle">
                         Tata Consultancy Services, IN - Client Apple Inc
                       </h4>
-                      <p>
+                      <p style={{ textAlign: "justify" }}>
                         It is an application developed to assist the client
                         (Apple Inc) with managing sales data of a particular
                         location, by allowing clients to record new data and
                         view the trends of existing data with the help of
-                        industry-standard visualization. My role was to handle
-                        the front-end with ReactJS, developing intuitive web
-                        user interface with advanced functionality and also to
-                        develop low latency service API’s using GSF which is
+                        industry-standard visualization.<br></br> My role was to
+                        handle the front-end with ReactJS, developing intuitive
+                        web user interface with advanced functionality and also
+                        to develop low latency service API’s using GSF which is
                         built on top of spring boot framework.
                       </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
                       date="2020 - 2021"
+                      contentStyle={{
+                        color: "#53565a",
+                      }}
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
                       }}
@@ -318,12 +325,12 @@ class CenterContent extends Component {
                       <h4 className="vertical-timeline-element-subtitle">
                         Tata Consultancy Services, IN - Client Apple Inc{" "}
                       </h4>
-                      <p>
+                      <p style={{ textAlign: "justify" }}>
                         Cascade is a central application for apple's sales
                         details, which provides data to downstream applications.
-                        My role here was to work primarily on the UI and
-                        services (GSF). I have developed intuitive web designs
-                        and faster APIs to improve the efficiency of the
+                        <br></br>My role here was to work primarily on the UI
+                        and services (GSF). I have developed intuitive web
+                        designs and faster APIs to improve the efficiency of the
                         application.{" "}
                       </p>
                     </VerticalTimelineElement>
@@ -331,6 +338,9 @@ class CenterContent extends Component {
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
                       date="2020 - 2021"
+                      contentStyle={{
+                        color: "#53565a",
+                      }}
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
                       }}
@@ -346,12 +356,12 @@ class CenterContent extends Component {
                       <h4 className="vertical-timeline-element-subtitle">
                         Tata Consultancy Services, IN - Client Apple Inc{" "}
                       </h4>
-                      <p>
+                      <p style={{ textAlign: "justify" }}>
                         No Show Prediction is a machine learning project aimed
                         at predicting the no-show percentage of the appointments
-                        booked for apple services at the Apple store. My role
-                        was to accumulate data from different sources and
-                        pre-process the data using different data mining
+                        booked for apple services at the Apple store.<br></br>{" "}
+                        My role was to accumulate data from different sources
+                        and pre-process the data using different data mining
                         techniques to transform it into a meaningful dataset,
                         which was then passed to a machine learning model for
                         training and predicting the future trends.{" "}
