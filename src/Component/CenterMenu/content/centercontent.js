@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./centercontent.css";
-import { FaSuitcase } from "react-icons/fa";
+import { FaSuitcase, FaBuffer, FaBookOpen } from "react-icons/fa";
 import background from "./../../../Assets/background.jpg";
 import { SocialIcon } from "react-social-icons";
-import myResume from "./../../../Assets/Resume-VamshidharReddyParupally.pdf";
+import myResume from "./../../../Assets/VamshidharReddyParupally.pdf";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -195,8 +195,7 @@ class CenterContent extends Component {
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
                       contentStyle={{
-                        background: "#2c336e",
-                        color: "wheat",
+                        color: "black",
                       }}
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
@@ -214,7 +213,9 @@ class CenterContent extends Component {
                       <h4 className="vertical-timeline-element-subtitle">
                         Tata Consultancy Services, IN
                       </h4>
-                      <p>Full Stack Developer, Data Engineer</p>
+                      <p>
+                        Full Stack Developer, Data Engineer - Client Apple Inc
+                      </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
@@ -226,6 +227,7 @@ class CenterContent extends Component {
                         background: "rgb(33, 150, 243)",
                         color: "#fff",
                       }}
+                      icon={<FaBookOpen />}
                     >
                       <h3 className="vertical-timeline-element-title">
                         Bachelor's
@@ -234,6 +236,107 @@ class CenterContent extends Component {
                         Anurag Group of Institutions , IN{" "}
                       </h4>
                       <p>Information Technology </p>
+                    </VerticalTimelineElement>
+                  </VerticalTimeline>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="centercontent-div-div2">
+            <div className="container-fluid container-style">
+              <div className="row row-header-bottom">
+                <div className="col-sm-12 col-style">
+                  <h3 className=" centercontent-div-div3-h3">
+                    Projects at TCS
+                  </h3>
+                  <VerticalTimeline>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{
+                        color: "black",
+                      }}
+                      contentArrowStyle={{
+                        borderRight: "7px solid  rgb(33, 150, 243)",
+                      }}
+                      date="2020 - 2021"
+                      iconStyle={{
+                        background: "rgb(33, 150, 243)",
+                        color: "#fff",
+                      }}
+                      icon={<FaBuffer />}
+                    >
+                      <h3 className="vertical-timeline-element-title">
+                        Affordability - Apple Inc
+                      </h3>
+                      <h4 className="vertical-timeline-element-subtitle">
+                        Tata Consultancy Services, IN - Client Apple Inc
+                      </h4>
+                      <p>
+                        It is an application developed to assist the client
+                        (Apple Inc) with managing sales data of a particular
+                        location, by allowing clients to record new data and
+                        view the trends of existing data with the help of
+                        industry-standard visualization. My role was to handle
+                        the front-end with ReactJS and develop API services with
+                        the help of the client's proprietary service framework
+                        built on java.
+                      </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2020 - 2021"
+                      contentArrowStyle={{
+                        borderRight: "7px solid  rgb(33, 150, 243)",
+                      }}
+                      iconStyle={{
+                        background: "rgb(33, 150, 243)",
+                        color: "#fff",
+                      }}
+                      icon={<FaBuffer />}
+                    >
+                      <h3 className="vertical-timeline-element-title">
+                        Cascade - Apple Inc
+                      </h3>
+                      <h4 className="vertical-timeline-element-subtitle">
+                        Tata Consultancy Services, IN - Client Apple Inc{" "}
+                      </h4>
+                      <p>
+                        Cascade is a central application for apple's sales
+                        details, which provides data to downstream applications.
+                        My role here was to work primarily on the UI and
+                        services (GSF). I have developed intuitive web designs
+                        and faster APIs to improve the efficiency of the
+                        application.{" "}
+                      </p>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2020 - 2021"
+                      contentArrowStyle={{
+                        borderRight: "7px solid  rgb(33, 150, 243)",
+                      }}
+                      iconStyle={{
+                        background: "rgb(33, 150, 243)",
+                        color: "#fff",
+                      }}
+                      icon={<FaBuffer />}
+                    >
+                      <h3 className="vertical-timeline-element-title">
+                        No Show Prediction - Apple Inc
+                      </h3>
+                      <h4 className="vertical-timeline-element-subtitle">
+                        Tata Consultancy Services, IN - Client Apple Inc{" "}
+                      </h4>
+                      <p>
+                        No Show Prediction is a machine learning project aimed
+                        at predicting the no-show percentage of the appointments
+                        booked for apple services at the Apple store. My role
+                        here was to do the data pre-processing and send the data
+                        required for the model training and store the results in
+                        the Amazon S3 bucket.{" "}
+                      </p>
                     </VerticalTimelineElement>
                   </VerticalTimeline>
                 </div>
