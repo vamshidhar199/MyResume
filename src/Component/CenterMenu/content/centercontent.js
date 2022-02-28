@@ -91,15 +91,32 @@ class CenterContent extends Component {
                 </h5>
                 <h5 className="centercontent-div-h3">
                   {"\u00A0"}FullStack Developer | Cloud Enthusiast <br></br>
-                  {"\u00A0"}Experience : 1.5 years
+                  {"\u00A0"}Experience : 1.5 years <br></br>
+                  {"\u00A0"}Company : Tata Consultancy Services
+                </h5>
+                <h5 className="centercontent-div-h3">
+                  {"\u00A0"}
+                  <a href="mailto:vamshidhar199@gmail.com">
+                    vamshidhar199@gmail.com
+                  </a>{" "}
+                  | +1 (619) 496 8541<br></br>
                 </h5>
                 <div className=" centercontent-div-div">
                   {/* <SocialIcon
                     url="https://linkedin.com/in/vamshidhar-reddy-parupally-550080170"
                     style={{ height: 26, width: 26 }}
                   ></SocialIcon> */}
-                  <span title="linkedin profile" className="linked-in"></span>
-                  <span className="github" title="Github"></span>
+                  <a
+                    href={
+                      "https://www.linkedin.com/in/vamshidhar-reddy-parupally-550080170/"
+                    }
+                    target="_blank"
+                  >
+                    <span title="linkedin profile" className="linked-in"></span>
+                  </a>
+                  <a href={"https://github.com/vamshidhar199"} target="_blank">
+                    <span className="github" title="Github"></span>
+                  </a>
                   <a
                     href={myResume}
                     download="VamshidharReddyParupallyResume"
@@ -278,9 +295,10 @@ class CenterContent extends Component {
                         location, by allowing clients to record new data and
                         view the trends of existing data with the help of
                         industry-standard visualization. My role was to handle
-                        the front-end with ReactJS and develop API services with
-                        the help of the client's proprietary service framework
-                        built on java.
+                        the front-end with ReactJS, developing intuitive web
+                        user interface with advanced functionality and also to
+                        develop low latency service API’s using GSF which is
+                        built on top of spring boot framework.
                       </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -333,9 +351,11 @@ class CenterContent extends Component {
                         No Show Prediction is a machine learning project aimed
                         at predicting the no-show percentage of the appointments
                         booked for apple services at the Apple store. My role
-                        here was to do the data pre-processing and send the data
-                        required for the model training and store the results in
-                        the Amazon S3 bucket.{" "}
+                        was to accumulate data from different sources and
+                        pre-process the data using different data mining
+                        techniques to transform it into a meaningful dataset,
+                        which was then passed to a machine learning model for
+                        training and predicting the future trends.{" "}
                       </p>
                     </VerticalTimelineElement>
                   </VerticalTimeline>
