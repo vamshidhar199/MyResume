@@ -87,10 +87,9 @@ class CenterContent extends Component {
                   Vamshidhar Reddy Parupally
                 </h2>
                 <h5 className="centercontent-div-h3">
-                  {"\u00A0"}Student at San Jose State University <br></br>
+                  {"\u00A0"}FullStack Developer | Cloud Enthusiast <br></br>
                 </h5>
                 <h5 className="centercontent-div-h3">
-                  {"\u00A0"}FullStack Developer | Cloud Enthusiast <br></br>
                   {"\u00A0"}Experience : 1.5 years <br></br>
                   {"\u00A0"}Company : Tata Consultancy Services
                 </h5>
