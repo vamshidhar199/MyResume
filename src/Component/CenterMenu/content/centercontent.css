@@ -6,8 +6,8 @@
   /* position: relative; */
 }
 .row-header-col {
-  justify-content: left;
-  display: flex;
+  /* justify-content: left; */
+  /* display: flex; */
 }
 .centercontent-div-h1 {
   z-index: 2;
@@ -39,15 +39,15 @@
 }
 .centercontent-div-h1-profileImg {
   content: url("./../../../Assets/profile.jfif");
-  width: 120px !important;
-  height: 120px;
+  width: 150px !important;
+  height: 150px;
   border-radius: 55px;
-  padding: 10px;
+  /* padding: 10px; */
   padding-top: 5px;
   /* margin-left: -900px; */
   z-index: 2;
   /* position: relative; */
-  top: 90px;
+  /* top: 90px; */
 
   color: antiquewhite;
   /* font-family: "Ubuntu", sans-serif; */
@@ -135,16 +135,19 @@
   transition: transform 350ms;
   -webkit-appearance: none;
   -moz-appearance: none;
+  padding-bottom: 5px;
 }
 .centercontent-div-div2-p {
   text-align: justify;
   padding: 5px;
   color: #53565a;
+  letter-spacing: 1px;
 }
 .skill-list {
   text-align: left;
   padding-left: 30px;
   color: #53565a;
+  padding-bottom: 10px;
 }
 .centercontent-div-div-button {
   background-color: transparent;
@@ -177,7 +180,7 @@
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   text-align: left;
-  color: #53565a;
+  /* color: #53565a; */
 }
 .col-style:hover {
   border-radius: 0.12em;
@@ -188,10 +191,10 @@
   padding-left: 5px;
 }
 .centercontent-div-div2-h11 {
-  padding: 10px;
+  padding-top: 10px;
   padding-left: 5px;
   align-items: flex-start;
-  color: #53565a;
+  /* color: #53565a; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
@@ -304,12 +307,15 @@
   color: #53565a;
 }
 .centercontent-div-div2-h112 {
-  padding: 5px;
+  /* padding: 5px; */
   padding-left: 5px;
   align-items: flex-start;
-  color: #53565a;
+  /* color: #53565a; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   text-align: left;
+}
+.skill-hilight {
+  padding: 10px;
 }

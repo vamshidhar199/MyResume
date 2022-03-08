@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./centercontent.css";
-import { FaSuitcase, FaBuffer, FaBookOpen } from "react-icons/fa";
+import { FaSuitcase, FaBuffer, FaBookOpen, FaReact } from "react-icons/fa";
+import { SiApachekafka } from "react-icons/si";
+import { DiSpark, DiPython } from "react-icons/di";
+
 import background from "./../../../Assets/background.jpg";
 import { SocialIcon } from "react-social-icons";
 import myResume from "./../../../Assets/VamshidharReddyParupally.pdf";
@@ -80,10 +83,10 @@ class CenterContent extends Component {
           <div className="container-fluid">
             {/* <img className="centercontent-div-img" src={background}></img> */}
             <div className="row row-header">
-              <div className="col-sm-1 row-header-col">
+              <div className="col-sm-2 row-header-col">
                 <img className=" centercontent-div-h1-profileImg"></img>
               </div>
-              <div className="col-sm-11 bio-header">
+              <div className="col-sm-8 bio-header">
                 <h2 className="centercontent-div-h1">
                   Vamshidhar Reddy Parupally
                 </h2>
@@ -137,12 +140,36 @@ class CenterContent extends Component {
                   </a> */}
                 </div>
               </div>
+              <div className="col-sm-2">
+                <div className="container-fluid skill-hilight">
+                  <div className="row">
+                    <div className="col">
+                      <FaReact size={30} />
+                      <p>ReactJS</p>
+                    </div>
+                    <div className="col">
+                      <SiApachekafka size={30} />
+                      <p>kafka</p>
+                    </div>
+                    <div className="col">
+                      <DiSpark size={30} />
+                      <p>Spark</p>
+                    </div>
+                    <div className="col">
+                      <DiPython size={30} />
+                      <p>Python</p>
+                    </div>
+                  </div>
+                  <div className="row"></div>
+                  <div className="row"></div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="centercontent-div-div2">
             <div className="container-fluid container-style">
               <div className="row row-header-bottom">
-                <div className="col-sm-8 col-style">
+                <div className="col-sm-7 col-style">
                   <h3 className=" centercontent-div-div2-h1">
                     About Me
                     {/* <span
@@ -158,25 +185,14 @@ class CenterContent extends Component {
                     ></span> */}
                   </h3>
                   <p className=" centercontent-div-div2-p">
-                    Hello. I being an introvert, spent a lot of time inside the
-                    house, watching stupid TV shows, until I entered my
-                    graduation. The moment I entered into my graduation program,
-                    I have completely changed my point of focus towards the
-                    technologies that created curiosity in me. I have developed
-                    a couple of web applications out of my own interest, of
-                    which one fetched me a certificate stating "best project".
-                    Apart from the technological aspect, I have even poked my
-                    nose into creative and content writing and worked as an
-                    intern at a company named SHOOT ORDER. Also worked as a
-                    marketing intern at Bolt IoT.<br></br>
-                    <br></br> Having worked at TCS, as a software engineer, gave
-                    me a good understanding of corporate culture and how
-                    projects have to be accomplished. Working for clients like
-                    Apple has given me good exposure to industry standards and
-                    gave me an opportunity to work on technologies like AWS S3,
-                    Spark, Python, React JS, and Java. Now, I have started a new
-                    phase in my life at San Jose as a master's student. This is
-                    me, an enthusiast and reserved creature.
+                    I am experienced software developer with working experience
+                    on React JS, Java, Kafka and Spark. I posses effective
+                    capabilities to transform business requirements to technical
+                    solutions, and have good interpersonal skills. Ready to
+                    learn and evolve are some of my strengths.<br></br>I am a
+                    Challenger of Conventional Wisdom. Always ask the WHY.
+                    Strive to improve user experience by developing intuitive
+                    and smart solutions, with scalable and modular design.{" "}
                   </p>
                 </div>
                 <div className="col-sm col-style">
