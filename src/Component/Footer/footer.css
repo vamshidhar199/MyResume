@@ -7,7 +7,7 @@
   transition-timing-function: ease-in;
   -webkit-transition: all 0.25s; */
   width: 100%;
-  height: 25%;
+  height: 15%;
   opacity: 0;
   bottom: 0;
   overflow: hidden;
@@ -37,6 +37,7 @@
   padding-right: 10px;
   color: antiquewhite;
   cursor: pointer;
+  height: 8px;
 }
 .footer-none {
   display: none !important;

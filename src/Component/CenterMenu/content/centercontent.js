@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 import "./centercontent.css";
-import { FaSuitcase, FaBuffer, FaBookOpen, FaReact } from "react-icons/fa";
-import { SiApachekafka } from "react-icons/si";
-import { DiSpark, DiPython } from "react-icons/di";
+import {
+  FaSuitcase,
+  FaBuffer,
+  FaBookOpen,
+  FaReact,
+  FaAws,
+  FaApple,
+} from "react-icons/fa";
+import { SiApachekafka, SiTata } from "react-icons/si";
+import { DiSpark, DiPython, DiNodejs } from "react-icons/di";
 
 import background from "./../../../Assets/background.jpg";
 import { SocialIcon } from "react-social-icons";
@@ -46,6 +53,7 @@ class CenterContent extends Component {
       <span className="col-sm-2 skillsSpan">Spark</span>,
       <span className="col-sm-2 skillsSpan">Kafka</span>,
       <span className="col-sm-2 skillsSpan">C</span>,
+      <span className="col-sm-2 skillsSpan">NodeJS</span>,
     ];
     let constOtherSkills = [
       <span className="col-sm-2 skillsSpan">Organizing Skills</span>,
@@ -93,10 +101,40 @@ class CenterContent extends Component {
                 <h5 className="centercontent-div-h3">
                   {"\u00A0"}FullStack Developer | Cloud Enthusiast <br></br>
                 </h5>
-                <h5 className="centercontent-div-h3">
+                <div className="centercontent-div-h3">
+                  {/* {"\u00A0"}Education : Master's in Software Engineering{" "}
+                  <br></br>
+                  {"\u00A0"}Institution : San Jose State University <br></br>
                   {"\u00A0"}Experience : 1.5 years <br></br>
-                  {"\u00A0"}Company : Tata Consultancy Services
-                </h5>
+                  {"\u00A0"}Company : Tata Consultancy Services<br></br>
+                  {"\u00A0"}Client : Apple Inc */}
+                  {/* <span>
+                    <FaApple size={15}></FaApple>
+                  </span> */}
+                  <ul class="alignMe">
+                    <li>
+                      <b>Education</b> Master's in Software Engineering
+                    </li>
+                    <li>
+                      <b>Institution</b> San Jose State University, CA
+                    </li>
+                    <li>
+                      <b>Work Experience</b> 1.5 years
+                    </li>
+                    <li style={{ display: "flex" }}>
+                      <b>Company</b> Tata Consultancy Services
+                      <span style={{ marginTop: "-0.5px", paddingLeft: "2px" }}>
+                        <SiTata size={15}></SiTata>
+                      </span>
+                    </li>
+                    <li style={{ display: "flex" }}>
+                      <b>Client</b> Apple Inc{" "}
+                      <span style={{ marginTop: "-1.5px" }}>
+                        <FaApple size={15}></FaApple>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
                 <h5 className="centercontent-div-h3">
                   {"\u00A0"}
                   <a href="mailto:vamshidhar199@gmail.com">
@@ -156,8 +194,16 @@ class CenterContent extends Component {
                       <p>Spark</p>
                     </div>
                     <div className="col">
+                      <DiNodejs size={30} />
+                      <p>NodeJS</p>
+                    </div>
+                    <div className="col">
                       <DiPython size={30} />
                       <p>Python</p>
+                    </div>
+                    <div className="col">
+                      <FaAws size={30} />
+                      <p>AWS</p>
                     </div>
                   </div>
                   <div className="row"></div>
@@ -169,7 +215,7 @@ class CenterContent extends Component {
           <div className="centercontent-div-div2">
             <div className="container-fluid container-style">
               <div className="row row-header-bottom">
-                <div className="col-sm-7 col-style">
+                <div className="col-sm-7 col-style col-style-rightmargin">
                   <h3 className=" centercontent-div-div2-h1">
                     About Me
                     {/* <span
@@ -186,13 +232,14 @@ class CenterContent extends Component {
                   </h3>
                   <p className=" centercontent-div-div2-p">
                     I am experienced software developer with working experience
-                    on React JS, Java, Kafka and Spark. I posses effective
-                    capabilities to transform business requirements to technical
-                    solutions, and have good interpersonal skills. Ready to
-                    learn and evolve are some of my strengths.<br></br>I am a
-                    Challenger of Conventional Wisdom. Always ask the WHY.
-                    Strive to improve user experience by developing intuitive
-                    and smart solutions, with scalable and modular design.{" "}
+                    on React JS, Java, Kafka, NodeJS and Spark. I posses
+                    effective capabilities to transform business requirements to
+                    technical solutions, and have good interpersonal skills.
+                    Ready to learn and evolve, are some of my strengths.
+                    <br></br>I am a Challenger of Conventional Wisdom. Always
+                    ask the WHY. Strive to improve user experience by developing
+                    intuitive and smart solutions, with scalable and modular
+                    design.{" "}
                   </p>
                 </div>
                 <div className="col-sm col-style">
@@ -233,7 +280,31 @@ class CenterContent extends Component {
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
                       }}
-                      date="2020 - 2021"
+                      dateClassName={"vertical-align-left"}
+                      date="2022 - 2024"
+                      iconStyle={{
+                        background: "rgb(33, 150, 243)",
+                        color: "#fff",
+                      }}
+                      icon={<FaSuitcase />}
+                    >
+                      <h3 className="vertical-timeline-element-title">
+                        Master's
+                      </h3>
+                      <h4 className="vertical-timeline-element-subtitle">
+                        San Jose State University, CA
+                      </h4>
+                      <p>Software Engineering</p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{
+                        color: "#53565a",
+                      }}
+                      contentArrowStyle={{
+                        borderRight: "7px solid  rgb(33, 150, 243)",
+                      }}
+                      date="2020 - 2022"
                       iconStyle={{
                         background: "rgb(33, 150, 243)",
                         color: "#fff",
@@ -259,6 +330,7 @@ class CenterContent extends Component {
                       contentStyle={{
                         color: "#53565a",
                       }}
+                      dateClassName={"vertical-align-left"}
                       iconStyle={{
                         background: "rgb(33, 150, 243)",
                         color: "#fff",
@@ -295,7 +367,8 @@ class CenterContent extends Component {
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
                       }}
-                      date="2020 - 2021"
+                      dateClassName={"vertical-align-left"}
+                      date="2020 - 2022"
                       iconStyle={{
                         background: "rgb(33, 150, 243)",
                         color: "#fff",
@@ -322,7 +395,7 @@ class CenterContent extends Component {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
-                      date="2020 - 2021"
+                      date="2020 - 2022"
                       contentStyle={{
                         color: "#53565a",
                       }}
@@ -353,10 +426,11 @@ class CenterContent extends Component {
 
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
-                      date="2020 - 2021"
+                      date="2020 - 2022"
                       contentStyle={{
                         color: "#53565a",
                       }}
+                      dateClassName={"vertical-align-left"}
                       contentArrowStyle={{
                         borderRight: "7px solid  rgb(33, 150, 243)",
                       }}
