@@ -143,6 +143,7 @@ class CenterContent extends Component {
                   | +1 (619) 496 8541<br></br>
                 </h5>
                 <div className=" centercontent-div-div">
+                  <p>Other ways to know me :</p>
                   {/* <SocialIcon
                     url="https://linkedin.com/in/vamshidhar-reddy-parupally-550080170"
                     style={{ height: 26, width: 26 }}
@@ -153,10 +154,18 @@ class CenterContent extends Component {
                     }
                     target="_blank"
                   >
-                    <span title="linkedin profile" className="linked-in"></span>
+                    <span
+                      title="linkedin profile"
+                      className="linked-in"
+                      style={{ marginTop: "3px", marginLeft: "2px" }}
+                    ></span>
                   </a>
                   <a href={"https://github.com/vamshidhar199"} target="_blank">
-                    <span className="github" title="Github"></span>
+                    <span
+                      className="github"
+                      title="Github"
+                      style={{ marginTop: "3px" }}
+                    ></span>
                   </a>
                   <a
                     href={myResume}
@@ -164,7 +173,11 @@ class CenterContent extends Component {
                     target="_blank"
                   >
                     {" "}
-                    <span className="download-CV" title="Download CV"></span>
+                    <span
+                      className="download-CV"
+                      title="Download CV"
+                      style={{ marginTop: "3px" }}
+                    ></span>
                   </a>
 
                   {/* <a
