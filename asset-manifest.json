@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/MyResume/static/css/main.b70e885c.css",
-    "main.js": "/MyResume/static/js/main.2d8a1292.js",
+    "main.css": "/MyResume/static/css/main.655ee56e.css",
+    "main.js": "/MyResume/static/js/main.cbcf7d48.js",
     "static/js/787.28cb0dcd.chunk.js": "/MyResume/static/js/787.28cb0dcd.chunk.js",
-    "static/media/VamshidharReddyParupally.pdf": "/MyResume/static/media/VamshidharReddyParupally.8d91ff5403e333c5eca9.pdf",
+    "static/media/VamshidharReddyResumeWS.pdf": "/MyResume/static/media/VamshidharReddyResumeWS.eb2c32001b5b00ba3c04.pdf",
     "static/media/bootstrap-icons.woff?": "/MyResume/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
     "static/media/bootstrap-icons.woff2?": "/MyResume/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
     "static/media/profile.jfif": "/MyResume/static/media/profile.9aa2a93ae3f18db7d17c.jfif",
@@ -11,12 +11,12 @@
     "static/media/logo.svg": "/MyResume/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/MyResume/index.html",
     "static/media/arrow-down-circle.svg": "/MyResume/static/media/arrow-down-circle.5c6f32c6cb6037967f41.svg",
-    "main.b70e885c.css.map": "/MyResume/static/css/main.b70e885c.css.map",
-    "main.2d8a1292.js.map": "/MyResume/static/js/main.2d8a1292.js.map",
+    "main.655ee56e.css.map": "/MyResume/static/css/main.655ee56e.css.map",
+    "main.cbcf7d48.js.map": "/MyResume/static/js/main.cbcf7d48.js.map",
     "787.28cb0dcd.chunk.js.map": "/MyResume/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b70e885c.css",
-    "static/js/main.2d8a1292.js"
+    "static/css/main.655ee56e.css",
+    "static/js/main.cbcf7d48.js"
   ]
 }
