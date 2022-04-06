@@ -24,6 +24,7 @@
   font-size: 25px;
   color: #53565a;
   font-weight: 600;
+  text-align: left;
 }
 .centercontent-div-h3 {
   z-index: 2;
@@ -148,6 +149,8 @@
   padding: 5px;
   color: #53565a;
   letter-spacing: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .skill-list {
   text-align: left;
@@ -333,7 +336,7 @@
 }
 .alignMe b {
   display: inline-block;
-  width: 30%;
+  width: 25%;
   position: relative;
   padding-right: 10px; /* Ensures colon does not overlay the text */
   list-style-type: none;
@@ -344,7 +347,7 @@
 .alignMe b::after {
   content: ":";
   position: absolute;
-  right: 10px;
+  right: 7px;
 }
 .vertical-align-left {
   text-align: left;

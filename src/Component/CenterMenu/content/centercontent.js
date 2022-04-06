@@ -13,7 +13,7 @@ import { DiSpark, DiPython, DiNodejs } from "react-icons/di";
 
 import background from "./../../../Assets/background.jpg";
 import { SocialIcon } from "react-social-icons";
-import myResume from "./../../../Assets/VamshidharReddyParupally.pdf";
+import myResume from "./../../../Assets/VamshidharReddyResumeWS.pdf";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -119,7 +119,7 @@ class CenterContent extends Component {
                       <b>Institution</b> San Jose State University, CA
                     </li>
                     <li>
-                      <b>Work Experience</b> 1.5 years
+                      <b>Experience</b> 1.5 years
                     </li>
                     <li style={{ display: "flex" }}>
                       <b>Company</b> Tata Consultancy Services
@@ -169,7 +169,7 @@ class CenterContent extends Component {
                   </a>
                   <a
                     href={myResume}
-                    download="VamshidharReddyParupallyResume"
+                    download="VamshidharReddyResumeWS"
                     target="_blank"
                   >
                     {" "}
@@ -191,7 +191,7 @@ class CenterContent extends Component {
                   </a> */}
                 </div>
               </div>
-              <div className="col-sm-2">
+              <div className="col-sm-2" style={{paddingTop:'20px'}}>
                 <div className="container-fluid skill-hilight">
                   <div className="row">
                     <div className="col">
@@ -255,7 +255,7 @@ class CenterContent extends Component {
                     design.{" "}
                   </p>
                 </div>
-                <div className="col-sm col-style">
+                <div className="col-sm col-style" style={{paddingBottom:'20px'}}>
                   <h3 className=" centercontent-div-div2-h11">Skills</h3>
                   <h5 className=" centercontent-div-div2-h112">Technologies</h5>
                   <div className="container-fluid">
